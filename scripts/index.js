@@ -11,6 +11,10 @@ window.addEventListener('scroll', function () {
   return navbar.classList.remove('active');
 });
 
-function envioEmail(){
-  window.alert("Seu e-mail foi enviado!")
+function alert(){
+  Swal.fire({
+    title: "Tudo certo!",
+    text: "Seu e-mail foi enviado!",
+    icon: "success"
+  });
 }

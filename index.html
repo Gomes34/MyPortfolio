@@ -10,6 +10,7 @@
     <title>Meu Porfólio</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/extends.css" />
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css" rel="stylesheet">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -227,7 +228,7 @@
             <textarea cols="30" rows="10" name="message" 
               placeholder="Digite sua mensagem" required></textarea>
             
-            <button class="btn btn-primary" type="submit" onclick="envioEmail()">ENVIAR</button>
+            <button class="btn btn-primary" type="submit" onclick="alert()">ENVIAR</button>
             
             <input type="hidden" name="_subject" value="Novo Contato!">
             <input type="text" name="_honey" style="display:none">
@@ -252,5 +253,6 @@
     </footer>
     <!-- script -->
     <script src="scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
   </body>
 </html>
