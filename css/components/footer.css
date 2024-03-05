@@ -1,0 +1,49 @@
+footer {
+  background-color: var(--light-tertiary-color);
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+}
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+}
+
+form {
+  background: rgb(23, 53, 133);
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+input, textarea, button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 18px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
