@@ -13,6 +13,13 @@ footer .footer__content .footer__contact span {
   font-weight: 500;
 }
 
+footer .footer__contact a {
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+}
+
 footer .footer__content ul li {
   display: inline-block;
 }
